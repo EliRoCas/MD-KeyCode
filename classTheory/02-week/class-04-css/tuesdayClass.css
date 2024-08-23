@@ -1,0 +1,82 @@
+@font-face {
+    font-family: "Inter";
+    src: url("https://fonts.google.com/specimen/inter");
+}
+
+:root {
+    --green: hsl(75, 94%, 57%);
+    --white: hsl(0, 0%, 100%);
+    --grey-700: hsl(0, 0%, 20%);
+    --grey-800: hsl(0, 0%, 12%);
+    --grey-900: hsl(0, 0%, 8%);
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--grey-900);
+    font-size: 14px;
+}
+
+.card_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    background-color: var(--grey-800);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.card .card-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card .card-img figure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+    width: 100%;
+    max-width: 100px;
+    height: 100%;
+    max-height: 100px;
+    border-radius: 50%;
+}
+
+.card .card-img figure img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transition: 0.2s;
+}
+
+.card .card-img figure img::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #8a2be2;
+}
+
+.card .card-img figure img:hover {
+    width: 120%;
+    height: 120%;
+    transition: 0.2s;
+}
