@@ -28,3 +28,6 @@ const Child = ({ lunchbox }) => {
 };
 
 Here, the Parent component passes the sandwich value to the Child component via the lunchbox prop. The Child component then displays what’s inside the lunchbox.
+
+
+Another way to explain prop is "They are incoming elements that you pass as a property inside the function". 
