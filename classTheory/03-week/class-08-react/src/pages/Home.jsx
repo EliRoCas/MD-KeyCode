@@ -1,6 +1,8 @@
 import React from "react";
 import { useState } from "react";
 import MyComponet from "../components/MyComponent";
+import Image from "../components/Img";
+
 import triz from "../assets/triz.jpg";
 import dante from "../assets/dante.jpg";
 import dan from "../assets/dan.jpg";
@@ -23,6 +25,10 @@ function Home() {
 
   return (
     <main>
+      <Image>
+        <img src={imgState} alt="Chihuahuas" />
+      </Image>
+
       <figcaption>
         <img src={imgState} alt="Chihuahua" />
       </figcaption>
