@@ -31,3 +31,6 @@ Here, the Parent component passes the sandwich value to the Child component via 
 
 
 Another way to explain prop is "They are incoming elements that you pass as a property inside the function". 
+
+
+COMPONENTS 
