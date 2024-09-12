@@ -1,0 +1,57 @@
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #970606;
+  border: 1px solid #000;
+  border-radius: 15px;
+  margin: 40px;
+  padding: 20px;
+
+  h1 {
+    text-align: center;
+    font-size: 26px;
+    padding: 20px 0;
+
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+
+      max-width: 1440px;
+
+      .card {
+        display: flex;
+        align-items: flex-start;
+        gap: 20px;
+        border-radius: 15px;
+        padding: 30px;
+
+        figure {
+          display: flex;
+          align-items: flex-start;
+          justify-content: center;
+
+          max-width: 140px;
+
+          overflow: hidden;
+          border-radius: 20px;
+        }
+
+        li strong {
+          color: #c96d6d;
+        }
+      }
+    }
+  }
+}

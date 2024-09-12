@@ -1,0 +1,14 @@
+#root {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+input.valid {
+    border: 1px solid #008000;
+}
+
+input.invalid {
+    border: 1px solid #ff0000;
+}
