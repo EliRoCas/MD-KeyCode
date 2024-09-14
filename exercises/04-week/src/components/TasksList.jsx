@@ -2,9 +2,14 @@ import PropTypes from "prop-types";
 import TaskItem from "./item/TaskItem";
 
 function TasksList({ listTask }) {
-  return listTask.map((task, index) => {
-    return <TaskItem key={index} task={task} />;
-  });
+  return (
+    <section>
+      <h2>Lista de Tareas</h2>
+      {listTask.map((task, index) => (
+        <TaskItem key={index} task={task} />
+      ))}
+    </section>
+  );
 }
 
 TasksList.propTypes = {

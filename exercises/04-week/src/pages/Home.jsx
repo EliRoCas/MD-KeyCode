@@ -9,8 +9,7 @@ function Home() {
 
   return (
     <>
-      <h1>Lista de Tareas</h1>
-      <Nav setShowComponent={setShowComponent} />
+      <Nav setShowComponent={setShowComponent} showComponent={showComponent} />
 
       {showComponent ? (
         <AddTask setTaskList={setlistTask} listTask={listTask} />

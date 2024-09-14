@@ -2,12 +2,12 @@ import PropTypes from "prop-types";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./Nav.scss";
 
-const Nav = ({ setShowComponent }) => {
+const Nav = ({ setShowComponent, showComponent }) => {
   return (
     <>
       <div className="tab">
         <button
-          className="tablinks"
+          className={`tablinks ${showComponent ? "active" : ""}`}
           onClick={() => {
             setShowComponent(true);
           }}
@@ -16,7 +16,7 @@ const Nav = ({ setShowComponent }) => {
         </button>
 
         <button
-          className="tablinks"
+          className={`tablinks ${!showComponent ? "active" : ""}`}
           onClick={() => {
             setShowComponent(false);
           }}
@@ -30,6 +30,7 @@ const Nav = ({ setShowComponent }) => {
 
 Nav.propTypes = {
   setShowComponent: PropTypes.func.isRequired,
+  showComponent: PropTypes.bool.isRequired,
 };
 
 export default Nav;
