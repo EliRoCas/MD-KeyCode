@@ -29,21 +29,22 @@ button.tablinks {
   border: 1px solid #f1faf1;
   border-bottom: none;
   border-radius: 5px 5px 0 0;
-  background-color: #017fc0;
+  background-color: #d9534f;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 button.tablinks:hover {
-  background-color: #264352;
+  background-color: #c9302c;
 }
 
 button.tablinks.active {
-  background-color: #02273a;
+  background-color: #ac2925;
 }
 
 button.add {
   max-width: 90%;
   padding: 10px;
   margin: 0.2rem;
+  background-color: #ac2925;
 }
