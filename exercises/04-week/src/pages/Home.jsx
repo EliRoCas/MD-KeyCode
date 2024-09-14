@@ -5,16 +5,18 @@ import Nav from "../components/layout/Nav.jsx";
 
 function Home() {
   const [listTask, setlistTask] = useState([]);
+  const [showComponent, setShowComponent] = useState(false);
 
   return (
     <>
       <h1>Lista de Tareas</h1>
-      <Nav />
+      <Nav setShowComponent={setShowComponent} />
 
-      <article>
+      {showComponent ? (
         <AddTask setTaskList={setlistTask} listTask={listTask} />
+      ) : (
         <TasksList listTask={listTask} />
-      </article>
+      )}
     </>
   );
 }
