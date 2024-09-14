@@ -1,18 +1,19 @@
 import PropTypes from "prop-types";
+import TaskItem from "./item/TaskItem";
 
 function TasksList({ listTask }) {
   return listTask.map((task, index) => {
-    return (
-      <div key={index}>
-        <h2>{task.title}</h2>
-        <p>{task.description}</p>
-      </div>
-    );
+    return <TaskItem key={index} task={task} />;
   });
 }
 
 TasksList.propTypes = {
-  listTask: PropTypes.array.isRequired,
+  listTask: PropTypes.arrayOf(
+    PropTypes.shape({
+      title: PropTypes.string.isRequired,
+      description: PropTypes.string.isRequired,
+    })
+  ).isRequired,
 };
 
 export default TasksList;
