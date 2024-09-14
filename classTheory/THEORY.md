@@ -34,3 +34,6 @@ Another way to explain prop is "They are incoming elements that you pass as a pr
 
 
 COMPONENTS 
+
+LIFTING STATE UP 
+Is a technique used to share state between multiple components. Instead of each component having its own local state, the state is “lifted” to a common ancestor component. This ancestor component then passes the state down to its child components via props.
