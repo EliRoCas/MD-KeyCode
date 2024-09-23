@@ -1,5 +1,11 @@
+import Card from "../organisms/Card";
+
 function OrderSummary() {
-  return <></>;
+  return (
+    <>
+      <Card />
+    </>
+  );
 }
 
 export default OrderSummary;

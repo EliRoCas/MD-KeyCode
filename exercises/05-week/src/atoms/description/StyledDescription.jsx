@@ -1,9 +1,14 @@
 import styled from "styled-components";
 
 const StyledDescription = styled.p`
-  font-size: 16px;
-  font-family: "Red Hat Display", sans-serif;
-  font-weight: 500, 700, 900;
+  padding: ${(props) => props.padding || "0"};
+  margin: ${(props) => props.margin || "0"};
+
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #9b9dae;
 `;
 
 export default StyledDescription;

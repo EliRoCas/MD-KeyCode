@@ -1,0 +1,19 @@
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+
+  margin: 1rem;
+  border-radius: 15px;
+
+  background-color: #fff;
+}
+
+.imgHero {
+  border-radius: 15px 15px 0 0px;
+  width: 100%;
+  height: auto;
+}

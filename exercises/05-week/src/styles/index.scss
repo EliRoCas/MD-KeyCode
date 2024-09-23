@@ -1,8 +1,13 @@
-#root {
+html {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   min-width: 100vw;
   min-height: 100vh;
   background-color: #d6e1ff;
+
+  body {
+    font-family: "Red Hat Display", sans-serif;
+  }
 }

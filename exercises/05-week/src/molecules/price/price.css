@@ -1,0 +1,12 @@
+.priceContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+.priceInfo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
