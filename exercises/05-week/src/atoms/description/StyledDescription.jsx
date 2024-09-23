@@ -8,7 +8,6 @@ const StyledDescription = styled.p`
   font-size: 1rem;
   font-weight: 500;
   line-height: 1.5;
-  color: #9b9dae;
 `;
 
 export default StyledDescription;

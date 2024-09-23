@@ -11,7 +11,7 @@ const StyledButton = styled.button`
 
   font-size: 16px;
   font-weight: 600;
-  color: ${(props) => props.textColor || "#A2A9C0"};
+  color: ${(props) => props.textColor || "#7A8297"};
 `;
 
 export default StyledButton;

@@ -6,7 +6,7 @@ const Information = () => {
     <>
       <Title
         title={"Order Summary"}
-        margin={"1.5rem"}
+        margin={"1.3rem"}
         padding={"0.650"}
       />
       <Description
