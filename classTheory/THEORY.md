@@ -43,4 +43,6 @@ STYLE COMPONENTS
 
 It is recommended to use it when we have small pieces of code, for instance, when we have atoms in an atomic design or when we are creating a small app. The reason why it is better in those cases is that we can use our styles inside the same component, so we can manage them directly and have all our code in the same place 
 
-REACT ROUTER DOOM
+REACT ROUTER DOM
+
+QUERY PARAMS - VS - PATH PARAMS
