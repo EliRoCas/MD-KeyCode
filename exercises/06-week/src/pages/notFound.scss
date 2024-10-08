@@ -1,0 +1,33 @@
+.notFound {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4;
+  font-size: 2rem;
+  color: #333;
+
+  p {
+    font-size: 1.5rem;
+    font-family: cursive;
+  }
+
+  button {
+    background-color: #61dafb;
+    border: solid 1px;
+    border-radius: 5px;
+
+    .nfLink {
+      color: #000;
+      margin-top: 20px;
+      font-size: 1.1rem;
+      font-family: cursive;
+    }
+  }
+
+  .nfImg {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}
