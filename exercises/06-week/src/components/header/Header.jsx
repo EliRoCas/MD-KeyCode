@@ -5,7 +5,7 @@ import "./header.scss";
 const Header = () => {
   return (
     <section className="headerContainer">
-      <h1>Actividad 6: React Router DOM</h1>
+      <h1>Actividad 6</h1>
       <nav>
         <button>
           <Link to="/">Home</Link>
