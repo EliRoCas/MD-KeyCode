@@ -16,3 +16,35 @@ body,
   width: 100%;
   margin-bottom: 4rem;
 }
+
+button {
+  background-color: #61dafb;
+  border: none;
+  border-radius: 5px;
+  margin: 0.2rem;
+  padding: 0.2rem 0.5rem;
+  color: #282c34;
+  font-size: 16px;
+  font-family: cursive;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #154764;
+    color: #fff;
+  }
+}
+
+.link {
+  color: #000;
+  text-decoration: none;
+  font-family: cursive;
+
+  &:hover {
+    color: #fff;
+  }
+
+  &:focus {
+    background-color: #154764;
+    color: #fff;
+  }
+}

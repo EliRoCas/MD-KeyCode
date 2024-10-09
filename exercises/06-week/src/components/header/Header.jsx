@@ -20,17 +20,13 @@ const Header = () => {
         </div>
         <ul className={isOpen ? "nav-links open" : "nav-links"}>
           <li>
-            <Link
-              className="headerLink"
-              to="/"
-              onClick={() => setIsOpen(false)}
-            >
+            <Link className="link" to="/" onClick={() => setIsOpen(false)}>
               Inicio
             </Link>
           </li>
           <li>
             <Link
-              className="headerLink"
+              className="link"
               to="/products"
               onClick={() => setIsOpen(false)}
             >
