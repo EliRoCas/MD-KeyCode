@@ -12,7 +12,7 @@ const Header = () => {
 
   return (
     <header className="headerContainer">
-      <h1>Actividad 6</h1>
+      <h1>MortyArte</h1>
       <nav className="navbar">
         <div className="toggleButton" onClick={toggleMenu}>
           <span className={isOpen ? "line open" : "line"}></span>
