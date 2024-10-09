@@ -41,6 +41,31 @@ h2 {
   h3 {
     text-align: center;
   }
+
+  button {
+    background-color: #61dafb;
+    border: none;
+    border-radius: 5px;
+    margin: 0.2rem;
+    padding: 0.2rem 0.5rem;
+    color: #282c34;
+    font-size: 16px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #154764;
+      color: #fff;
+    }
+  }
+  .cardLink {
+    color: #000;
+    text-decoration: none;
+    font-family: cursive;
+
+    &:hover {
+      color: #fff;
+    }
+  }
 }
 
 @media (max-width: 1248px) {

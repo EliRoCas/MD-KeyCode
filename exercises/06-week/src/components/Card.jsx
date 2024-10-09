@@ -8,7 +8,7 @@ const Card = ({ character, price }) => {
       <h3>{character.name}</h3>
       <p>{price} Cop</p>
       <button>
-        <Link to={`/product/${character.id}?price=${price}`}>Ver más</Link>
+        <Link className="cardLink" to={`/product/${character.id}?price=${price}`}>Ver más</Link>
       </button>
     </div>
   );
