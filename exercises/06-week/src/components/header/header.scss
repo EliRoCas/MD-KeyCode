@@ -8,6 +8,9 @@
   background-color: #282c34;
   padding: 0.2rem;
   color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 
   h1 {
     font-size: 1.5rem;
@@ -88,7 +91,6 @@
         color: #fff;
       }
     }
-
   }
 }
 
