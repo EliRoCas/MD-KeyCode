@@ -1,5 +1,4 @@
 body,
-html,
 #root {
   height: 100%;
   width: 100%;
@@ -9,9 +8,11 @@ html,
   background-color: #f8f9fa;
 }
 
-main {
-  display: flex;
+.content {
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
   height: 100%;
   width: 100%;
+  margin-bottom: 2rem;
 }

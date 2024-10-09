@@ -25,7 +25,7 @@ const Header = () => {
               to="/"
               onClick={() => setIsOpen(false)}
             >
-              Home
+              Inicio
             </Link>
           </li>
           <li>
@@ -34,7 +34,7 @@ const Header = () => {
               to="/products"
               onClick={() => setIsOpen(false)}
             >
-              Products
+              Productos
             </Link>
           </li>
         </ul>
